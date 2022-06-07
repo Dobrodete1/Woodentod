@@ -1,0 +1,258 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    ;
+}
+
+.font-cardo{
+    font-family: 'Cardo', serif;
+}
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.italic{
+    font-style: italic;
+}
+
+.header__navigation>span{
+    padding-left: 20px;
+    font-family: 'Cardo', serif;
+}
+.header__img{
+    padding-top: 16px;
+    padding-left: 315px;
+    
+}
+.header{
+    display: flex;
+}
+.header__navigation{
+    padding-top: 24px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/background.png');
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Cardo', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+}
+.hero_text{
+    color: aliceblue;
+    font-size: 27px;
+    margin: 0;
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.hero_button{
+    width: 204px;
+    height: 33px;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Cardo', serif;
+    border: 1px solid white;
+    transition: ease-in-out .3s;
+}
+.hero_button:hover{
+    color: black;
+    background-color: white;
+
+}
+.header_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.hero_button_2{
+    background-color: black;
+    border: 1px solid black;
+    color: aliceblue;
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: ease-in-out 0.6s;
+}
+.hero_button_2:hover{
+    color: black;
+    background-color: transparent;
+}
+.header_icons>a{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    text-decoration: none;
+    color: black;
+    gap: 1rem;
+}
+.gallery{ 
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.gallery>img{
+    width: 100%;
+}
+.spacing{
+    height: 115px;
+}
+.product{
+    display: flex;
+}
+.product>img{
+    width: 70%;
+}
+.product_left{
+    text-align: right;
+    margin: 48px;
+}
+.product_right{
+    text-align: left;
+    margin: 48px;
+}
+.product h2{
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+.product a{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.p_product{
+    font-family: 'Cardo', serif;
+    font-style: italic;
+}
+.product_description{
+    color:#525252;
+    font-size: 18px;
+}
+.spacing_2{
+    height: 29px;
+}
+.product_favorite{
+    color: red;
+}
+.product_our{
+    text-align: center;
+}
+.p_our{
+    font-size: 30px;
+    font-weight: 700;
+}
+.p_get{
+    font-size: 18px;
+    font-weight: 400;
+}
+.product_list{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    width: 367px;
+    height: 550px;
+    text-align: right;
+    color: white;
+    margin-left: 10px;
+}
+.list span{
+    padding-right: 21px;
+    margin-top: 41px;
+}
+.list_1{
+    background-image: url(images/footer/IMAGEvaza.png);
+}
+.list_2{
+    background-image: url(images/footer/IMAGEpolka.png);
+}
+.list_3{
+    background-image: url(images/footer/IMAGEsofa.png);
+}
+.rectangle{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 43%;
+}
+.foot_header{
+    text-align: center;
+    padding: 5% 15%;
+}
+.bonus_inf{
+    display: flex;
+}
+.footer_icons{
+    text-align: center;
+    width: 360px;
+    height: 370px;
+}
+.footer_icons a:visited{
+    color: black;
+}
+.footer_icons:nth-child(odd){
+    background-color: white;
+}
+.icons_name{
+    font-size: 24px;
+}
+.footer_icons a{
+    margin-top: 25px;
+}
+.partners{
+    text-align: center;
+}
+.partners_img{
+    width: 100%;
+}
+.spacing_3{
+    height: 72px;
+}
+.footer{
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_nav{
+    display: flex;
+    text-align: center;
+    gap: 110px;
+}
+.navigation_sub{
+    padding-left: 190px;
+}
+.navigation_sub button{
+    width: 220px;
+    height: 25px;
+    border-radius: 0;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.footer_fsc_icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_end{
+    max-width: 100%;
+    display: flex;
+    gap: 60px;
+}
